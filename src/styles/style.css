@@ -1,1 +1,87 @@
-/** CSS STYLE **/
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../assets/fonts/OpenSans-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../assets/fonts/OpenSans-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neucha';
+    src: url('../assets/fonts/Neucha.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 160%;
+}
+
+/**     COLORS          **/
+
+:host {
+    --text: #2A2626;
+    --primary: #FE8A02;
+    --primary-dark: #42413C;
+    --secondary: #908D8B;
+    --bg-light: #F5F4F0;
+    --bg-dark: #B09A81;
+}
+
+.text {
+    color: var(--text);
+}
+
+.primary {
+    color: var(--primary);
+}
+
+.primary-dark {
+    color: var(--primary-dark);
+}
+
+.secondary {
+    color: var(--secondary);
+}
+
+.bg-light {
+    background-color: var(--bg-light);
+}
+
+.bg-dark {
+    background-color: var(--bg-dark);
+}
+
+/**     TYPOGRAPHY      **/
+
+h1, h2, h3, h4 {
+    line-height: 120%;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 60px;
+    line-height: 110%;
+}
+
+h3 {
+    font-size: 34px;
+}
+
+h4 {
+    font-size: 24px;
+}
