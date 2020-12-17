@@ -187,14 +187,10 @@ header {
     padding: 115px 0 105px;
 }
 
-.page-title {
-    max-width: 635px;
-}
-
 .img-main {
     position: absolute;
-    top: -96px;
-    right: -136px;
+    top: 30px;
+    right: -138px;
 }
 
 .info-header {
@@ -226,7 +222,7 @@ header {
 }
 
 .card {
-    min-width: 350px;
+    min-width: 290px;
     background: #fff;
     padding: 20px 23px;
     text-decoration: none;
