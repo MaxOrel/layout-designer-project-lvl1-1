@@ -3,7 +3,6 @@
     src: url('../assets/fonts/OpenSans-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
@@ -11,7 +10,6 @@
     src: url('../assets/fonts/OpenSans-Bold.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
@@ -19,7 +17,6 @@
     src: url('../assets/fonts/Neucha.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
 }
 
 /**     COLORS          **/
@@ -118,7 +115,7 @@ body, html {
 
 body {
     max-width: 1440px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 160%;
     margin: 0 auto;
@@ -231,14 +228,14 @@ header {
 }
 
 .card .card-num {
-    font-family: Neucha;
+    font-family: Neucha, sans-serif;
     font-size: 64px;
     line-height: 70px;
     color: var(--primary-dark);
 }
 
 .card .card-title {
-    font-family: Neucha;
+    font-family: Neucha, sans-serif;;
     font-size: 34px;
     line-height: 120%;
     margin: 29px 0 6px;
@@ -260,7 +257,7 @@ header {
 
 .card.card-blank {
     padding: 0;
-    font-family: 'Neucha';
+    font-family: 'Neucha', sans-serif;;
     font-size: 52px;
     line-height: 120%;
     background: none;
@@ -362,7 +359,7 @@ footer {
 }
 
 .subscribe-block .subscribe-title {
-    font-family: 'Neucha';
+    font-family: 'Neucha', sans-serif;;
     font-size: 36px;
     line-height: 120%;
 }
