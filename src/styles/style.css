@@ -72,7 +72,7 @@ h4 {
 
 /**     FORMS         **/
 
-button {
+button, .btn {
     font-size: 16px;
     line-height: 160%;
     text-transform: uppercase;
@@ -82,9 +82,11 @@ button {
     padding: 11px 24px;
     border: none;
     cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
 }
 
-button:hover {
+button:hover, .btn:hover {
     background-color: var(--primary-hover);
 }
 
@@ -198,10 +200,11 @@ header {
     margin-top: 25px;
 }
 
-.video iframe {
+.video {
     width: 100%;
     max-width: 918px;
     height: 544px;
+    border: none;
     filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
@@ -235,7 +238,7 @@ header {
 }
 
 .card .card-title {
-    font-family: Neucha, sans-serif;;
+    font-family: Neucha, sans-serif;
     font-size: 34px;
     line-height: 120%;
     margin: 29px 0 6px;
@@ -257,7 +260,7 @@ header {
 
 .card.card-blank {
     padding: 0;
-    font-family: 'Neucha', sans-serif;;
+    font-family: 'Neucha', sans-serif;
     font-size: 52px;
     line-height: 120%;
     background: none;
@@ -359,7 +362,7 @@ footer {
 }
 
 .subscribe-block .subscribe-title {
-    font-family: 'Neucha', sans-serif;;
+    font-family: 'Neucha', sans-serif;
     font-size: 36px;
     line-height: 120%;
 }

@@ -12,7 +12,7 @@
 
 <body>
     <header class="bg-light bg-pattern">
-        <img class="img-main" src="./assets/images/main.png">
+        <img class="img-main" src="./assets/images/main.png" alt="человечек">
         <section class="relative">
             <h1>
                 <span class="primary">Когнитивные<br>искажения</span><br>в программировании
@@ -36,7 +36,7 @@
                         сломать и цикл, а остатки нейтрализовать.
                     </p>
 
-                    <a href="#dists"><button class="btn-header">Подробнее</button></a>
+                    <a href="#dists" class="btn btn-header">Подробнее</a>
                 </div>
             </div>
         </section>
@@ -46,18 +46,14 @@
             <div class="text-center">
                 <h2>Что же это такое,<br><span class="primary">когнитивные искажения?</span></h2>
                 <p>Что такое когнитивные искажения. Petrovna Channel</p>
-                <div class="video">
-                    <iframe src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
+                <iframe class="video" src="https://www.youtube.com/embed/jie9AizBqss" allowfullscreen></iframe>
             </div>
         </section>
         <section class="section-cards bg-primary-dark" id="dists">
             <nav class="flex-container gap-30">
-                <div class="card card-blank">
+                <h2 class="card card-blank">
                     <span class="primary">5 когнитивных искажений</span><br>о существовании которых стоит помнить
-                </div>
+                </h2>
                 <a href="#ikea-effect" class="card">
                     <div class="card-num">1</div>
                     <div class="card-title">Эффект ИКЕА</div>
@@ -99,7 +95,7 @@
         </section>
         <section class="section-distortion dist-light" id="ikea-effect">
             <div class="dist-top">
-                <img class="dist-img" src="./assets/images/1.png">
+                <img class="dist-img" src="./assets/images/1.png" alt="Иллюстрация искажения">
                 <div class="dist-short">
                     <h4>Когнитивные искажения</h4>
                     <h2>Эффект ИКЕА</h2>
@@ -125,7 +121,7 @@
         </section>
         <section class="section-distortion dist-dark" id="premature-optimization">
             <div class="dist-top">
-                <img class="dist-img" src="./assets/images/2.png">
+                <img class="dist-img" src="./assets/images/2.png" alt="Иллюстрация искажения">
                 <div class="dist-short">
                     <h4>Когнитивные искажения</h4>
                     <h2>Преждевременная оптимизация</h2>
@@ -150,7 +146,7 @@
         </section>
         <section class="section-distortion dist-light" id="distortion-of-novelty">
             <div class="dist-top">
-                <img class="dist-img" src="./assets/images/3.png">
+                <img class="dist-img" src="./assets/images/3.png" alt="Иллюстрация искажения">
                 <div class="dist-short">
                     <h4>Когнитивные искажения</h4>
                     <h2>Искажение новизны</h2>
@@ -178,7 +174,7 @@
         <section class="section-distortion dist-dark" id="hyperbolic-depreciation">
 
             <div class="dist-top">
-                <img class="dist-img" src="./assets/images/4.png">
+                <img class="dist-img" src="./assets/images/4.png" alt="Иллюстрация искажения">
                 <div class="dist-short">
                     <h4>Когнитивные искажения</h4>
                     <h2>Гиперболическое обесценивание</h2>
@@ -207,7 +203,7 @@
         <section class="section-distortion dist-light" id="errors-in-planning">
 
             <div class="dist-top">
-                <img class="dist-img" src="./assets/images/5.png">
+                <img class="dist-img" src="./assets/images/5.png" alt="Иллюстрация искажения">
                 <div class="dist-short">
                     <h4>Когнитивные искажения</h4>
                     <h2>Ошибка планирования</h2>
@@ -238,13 +234,13 @@
     <footer>
         <section>
             <div class="subscribe-block flex-container gap-30 bg-primary-dark">
-                <div class="flex-1 subscribe-title">
+                <h2 class="flex-1 subscribe-title">
                     Хотите узнать больше? Подпишитесь на обновления
-                </div>
+                </h2>
                 <div class="flex-1 subscribe-form">
                     <label for="mail">Электронная почта</label>
                     <div class="flex-container flex-no-wrap">
-                        <input type="text" class="flex-1" placeholder="Ваша электронная почта" #id="mail" #name="mail">
+                        <input type="text" class="flex-1" placeholder="Ваша электронная почта" id="mail">
                         <button class="icon-send"></button>
                     </div>
                     <div class="rules">
