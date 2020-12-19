@@ -230,8 +230,8 @@ section {
 }
 
 .card {
-  min-width: 290px;
   flex: 1;
+  min-width: 290px;
   padding: 21px 24px;
   color: inherit;
   text-decoration: none;
@@ -370,8 +370,8 @@ footer {
 }
 
 .subscribe-block {
-  box-sizing: border-box;
   align-items: center;
+  box-sizing: border-box;
   max-width: 1140px;
   min-height: 190px;
   margin: 100px auto 0;
