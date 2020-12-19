@@ -1,34 +1,34 @@
 @font-face {
   font-family: 'Open Sans';
-  src: url('../assets/fonts/OpenSans-Regular.woff2') format('woff2');
   font-weight: normal;
+  src: url('../assets/fonts/OpenSans-Regular.woff2') format('woff2');
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Open Sans';
-  src: url('../assets/fonts/OpenSans-Bold.woff2') format('woff2');
   font-weight: bold;
+  src: url('../assets/fonts/OpenSans-Bold.woff2') format('woff2');
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Neucha';
-  src: url('../assets/fonts/Neucha.woff2') format('woff2');
   font-weight: normal;
+  src: url('../assets/fonts/Neucha.woff2') format('woff2');
   font-style: normal;
 }
 
 /**     COLORS          **/
 
 :root {
-  --text: #2A2626;
-  --primary: #FE8A02;
-  --primary-hover: #EA7600;
-  --primary-dark: #42413C;
-  --secondary: #908D8B;
-  --bg-light: #F5F4F0;
-  --bg-dark: #B09A81;
+  --text: #2a2626;
+  --primary: #fe8a02;
+  --primary-hover: #ea7600;
+  --primary-dark: #42413c;
+  --secondary: #908d8b;
+  --bg-light: #f5f4f0;
+  --bg-dark: #b09a81;
 }
 
 .primary {
@@ -45,7 +45,10 @@
 
 /**     TYPOGRAPHY      **/
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: 'Neucha';
   line-height: 120%;
   font-weight: normal;
@@ -72,7 +75,8 @@ h4 {
 
 /**     FORMS         **/
 
-button, .btn {
+button,
+.btn {
   font-size: 16px;
   line-height: 160%;
   text-transform: uppercase;
@@ -86,7 +90,8 @@ button, .btn {
   display: inline-block;
 }
 
-button:hover, .btn:hover {
+button:hover,
+.btn:hover {
   background-color: var(--primary-hover);
 }
 
@@ -110,7 +115,8 @@ input[type="text"] {
 
 /**     COMMON          **/
 
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
 }
@@ -254,7 +260,8 @@ header {
   color: #fff;
 }
 
-.card:hover .card-num, .card:hover .card-title {
+.card:hover .card-num,
+.card:hover .card-title {
   color: #fff;
 }
 
@@ -346,7 +353,8 @@ header {
   position: relative;
 }
 
-.section-distortion .dist-bottom-content, .section-distortion .dist-top {
+.section-distortion .dist-bottom-content,
+.section-distortion .dist-top {
   display: flex;
   flex-direction: row;
   gap: 30px;
