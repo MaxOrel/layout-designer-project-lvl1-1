@@ -416,3 +416,7 @@ footer {
   background-image: url(../assets/images/send.svg);
   background-repeat: no-repeat;
 }
+
+#errors-in-planning p {
+  margin-bottom: 20px;
+}
