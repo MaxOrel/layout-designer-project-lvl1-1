@@ -40,3 +40,7 @@ jobs:
         # Run Linter
         run: |
           make lint
+      - name: Run Deploy
+        # Run Linter
+        run: |
+          make deploy
