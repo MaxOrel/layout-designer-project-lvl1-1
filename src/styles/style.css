@@ -113,7 +113,6 @@ html {
 }
 
 body {
-  width: 1440px;
   color: var(--text);
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
