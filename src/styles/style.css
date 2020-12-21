@@ -277,26 +277,6 @@ section {
   background: none;
 }
 
-.section-cards {
-  padding-bottom: 102px;
-}
-
-.section-distortion::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image: url(../assets/images/background.png);
-  background-size: cover;
-  opacity: 0.1;
-}
-
-.section-distortion.dist-light {
-  background-color: var(--light);
-}
-
 .section-distortion.dist-light h4 {
   color: var(--secondary);
 }
@@ -325,10 +305,6 @@ section {
   background-color: var(--dark);
 }
 
-.section-distortion.dist-dark::before {
-  opacity: 0.1;
-}
-
 .section-distortion .dist-top {
   position: relative;
   margin-bottom: 70px;
@@ -342,10 +318,6 @@ section {
   min-width: 0;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
   object-fit: cover;
-}
-
-.section-distortion .dist-short {
-  flex: 1;
 }
 
 .section-distortion .dist-bottom-content p {
