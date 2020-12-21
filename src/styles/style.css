@@ -27,11 +27,11 @@
   --primary-hover: #ea7600;
   --primary-dark: #42413c;
   --secondary: #908d8b;
-  --bg-light: #f5f4f0;
-  --bg-dark: #b09a81;
+  --light: #f5f4f0;
+  --dark: #b09a81;
 }
 
-.primary {
+.color-primary {
   color: var(--primary);
 }
 
@@ -40,7 +40,7 @@
 }
 
 .bg-light {
-  background-color: var(--bg-light);
+  background-color: var(--light);
 }
 
 /**     TYPOGRAPHY      **/
@@ -119,10 +119,6 @@ body {
   line-height: 160%;
 }
 
-header {
-  overflow: hidden;
-}
-
 .content {
   position: relative;
   max-width: 1110px;
@@ -183,6 +179,22 @@ section {
   max-width: 100%;
 }
 
+.mt-185 {
+  margin-top: 184px;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+
+.pt-200 {
+  padding-top: 200px;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
 /**     STYLES          **/
 
 .img-main {
@@ -196,14 +208,6 @@ section {
   height: 100%;
 }
 
-.info-header {
-  margin-top: 184px;
-}
-
-.btn-header {
-  margin-top: 25px;
-}
-
 .video {
   width: 100%;
   max-width: 919px;
@@ -214,10 +218,6 @@ section {
 
 .section-video {
   margin-bottom: -191px;
-}
-
-.section-video + section {
-  padding-top: 200px;
 }
 
 .section-video p {
@@ -294,7 +294,7 @@ section {
 }
 
 .section-distortion.dist-light {
-  background-color: var(--bg-light);
+  background-color: var(--light);
 }
 
 .section-distortion.dist-light h4 {
@@ -311,18 +311,18 @@ section {
 }
 
 .section-distortion.dist-dark .dist-bottom-header {
-  color: var(--bg-dark);
+  color: var(--dark);
   background-color: #fff;
 }
 
 .section-distortion.dist-light .dist-bottom-header {
   color: #fff;
-  background-color: var(--bg-dark);
+  background-color: var(--dark);
 }
 
 .section-distortion.dist-dark {
   color: #fff;
-  background-color: var(--bg-dark);
+  background-color: var(--dark);
 }
 
 .section-distortion.dist-dark::before {
@@ -331,17 +331,9 @@ section {
 
 .section-distortion .dist-top {
   position: relative;
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
   margin-bottom: 70px;
 }
 
-.section-distortion .dist-bottom-content,
-.section-distortion .dist-top {
-  display: flex;
-  flex-direction: row;
-}
 
 .section-distortion.dist-dark .dist-top {
   flex-direction: row-reverse;
@@ -355,10 +347,6 @@ section {
 
 .section-distortion .dist-short {
   flex: 1;
-}
-
-.section-distortion .dist-bottom-content {
-  gap: 30px;
 }
 
 .section-distortion .dist-bottom-content p {
@@ -384,13 +372,16 @@ section {
   display: block;
   margin: 3px 0 13px;
   padding: 0;
-  font-weight: bold;
   font-size: 17px;
   line-height: 1;
 }
 
 .subscribe-form .rules {
   font-size: 12px;
+}
+
+.subscribe-form .rules a {
+  color: #fff;
 }
 
 .footer-bottom {
@@ -409,12 +400,4 @@ section {
   height: 24px;
   background-image: url(../assets/images/send.svg);
   background-repeat: no-repeat;
-}
-
-#errors-in-planning p {
-  margin-bottom: 20px;
-}
-
-footer {
-  padding: 100px 0;
 }
