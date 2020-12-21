@@ -183,6 +183,10 @@ section {
   margin-top: 184px;
 }
 
+.mt-17 {
+  margin-top: 17px;
+}
+
 .mt-25 {
   margin-top: 25px;
 }
@@ -251,10 +255,6 @@ section {
   font-size: 34px;
   font-family: Neucha, sans-serif;
   line-height: 120%;
-}
-
-.card .card-descr {
-  margin-top: 17px;
 }
 
 .card:hover {
